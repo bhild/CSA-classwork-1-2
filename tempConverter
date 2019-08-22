@@ -1,0 +1,20 @@
+public class tempConverter
+{
+    //--------------------------------------------------------
+    //  Computes the Fahrenheit value of a  specific celsius
+    //  Value using the formula f = (9/5)C + 32
+    //--------------------------------------------------------
+    public static void main(String[] args)
+    {
+        final int BASE = 32;
+        final double CONVERSION_RATE = 4.5;
+
+        int celsiusTemp = 24;
+        double fahenheitTemp;
+
+        fahenheitTemp = celsiusTemp* CONVERSION_RATE + BASE;
+
+        System.out.println("Celsius Temp " + celsiusTemp);
+        System.out.println("Fahrenheit Temp " + fahenheitTemp);
+    }
+}
