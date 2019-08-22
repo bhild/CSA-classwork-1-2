@@ -1,0 +1,17 @@
+public class geomtry
+{
+    //-------------------------------------------------
+    // Prints the number of sides on a geographic shape
+    //-------------------------------------------------
+    public static void main(String[] args)
+    {
+        int sides = 7;//declare with insiazation
+        System.out.println("a heptagon has " + sides + " sides.");
+        
+        sides = 10;//assinment statment
+        System.out.println("a decagon has " + sides + " sides.");
+        
+        sides = 12;
+        System.out.println("a dodecagon has " + sides + " sides.");
+    }
+}
