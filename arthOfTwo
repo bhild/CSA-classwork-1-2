@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class arthOfTwo
+{
+    public static void main(String[] args)
+    {
+        double a = 0;
+        double b = 0;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        System.out.println("\nsum "+ (a+b) + "\ndifference " + (a-b) + "\nproduct " + (a*b));
+    }
+}
