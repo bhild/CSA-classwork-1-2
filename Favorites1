@@ -1,0 +1,15 @@
+public class challenge001
+{
+    /*
+        *Write an application that prints, on separate lines, your name, your birthday, your hobbies, your favorite
+        * book, and your favorite movie. Label each piece of information in the output.
+     */
+    public static void main(String[] args)
+    {
+        System.out.println("Name: Bryan Hildebrand");
+        System.out.println("Birthday: 11/20/04");
+        System.out.println("Hobbys: MTG, Anime, Reading, and Programing");
+        System.out.println("Favorite Book: Unknown");
+        System.out.println("Favorite Movie: Unknown");
+    }
+}
