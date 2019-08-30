@@ -3,7 +3,7 @@ public class ScanKeyBoardInt
 {
     public static void main(String args[]) 
     {
-        Scanner keyboard = new Scanner();
+        Scanner keyboard = new Scanner(System.in);
         int num1, num2;
         int sum;
         
@@ -11,9 +11,9 @@ public class ScanKeyBoardInt
         num1 = keyboard.nextInt();
         
         System.out.println("Enter another intager...");
-        num1 = keyboard.nextInt();
+        num2 = keyboard.nextInt();
         
-        sum = sum1 + sum2;
+        sum = num1 + num2;
         
         System.out.println("The sum of "+num1+" and "+num2+" is "+sum);
     }
